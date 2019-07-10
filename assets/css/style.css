@@ -3,7 +3,7 @@ body {
   font-size: 18px;
   line-height: 34px;
   color: #777777;
-  background: url("/Users/annieluc/Downloads/hypnotize/hypnotize.png");
+  background: url("assets/images/hypnotize/hypnotize.png");
 }
 
 * {
