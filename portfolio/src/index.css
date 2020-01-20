@@ -6,19 +6,91 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: black;
-  
+  /* display: flex; */
 }
 
-#containerAboutDiv {
-  padding: 100px 500px 200px 500px;
+h1 {
+  color:rgb(255, 197, 6);
+  font-family: 'Gloria Hallelujah', cursive;
+}
+
+#containerAboutDiv, #projectDiv, #contactDiv {
+  padding: 100px 250px 200px 500px;
+  align-items: center;
+
+}
+/* Home.js */
+
+#jumbotronHome {
+  background-image: url('/images/annie-spratt-lRcoPGrwkv0-unsplash.jpg');
+  background-size: 100%;
+  margin-bottom: 0px;
+  padding-bottom: 300px;
+}
+
+#containerHomeDiv {
+  padding: 100px 250px 200px 500px;
+  align-items: center;
+  font-family: 'Gloria Hallelujah', cursive;
+}
+
+#aboutDiv {
+  padding: 100px 250px 200px 500px;
   align-items: center;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+#aboutMe {
+  padding-left: 50px;
+}
+
+img {
+  float: right;
+  border-radius: 15%;
+  padding-left: 10px;
+}
+
+#gitHubButton {
+box-sizing: border-box;
+margin-right: 10px;
+}
+
+#emailButton {
+box-sizing: border-box;
+margin-right: 10px;
+margin-bottom: 20px;
 }
 
 text {
   font-size: 10px;
+}
+
+#containerAboutDiv {
+  align-items: center;
+}
+
+#aboutDiv {
+  padding: 10px;
+  color: lavender;
+  font-family: 'Gloria Hallelujah', cursive;
+  justify-content: center;
+}
+
+/* Projects.js */
+#jumbotronProjects {
+  padding-bottom: 400px;
+  background-image: url('/images/victoria-bilsborough-U-ouhtPgHH4-unsplash.jpg');
+}
+
+#Proj1 {
+  border: 10px;
+  height: 100px;
+  width: 100px;
+  border-style: double;
+}
+
+/* About.js */
+#jumbotronAbout {
+padding-bottom: 400px;
+margin: 0px;
+background-image: url('/images/mitchell-luo-U9EWuhUzgs0-unsplash.jpg');
 }

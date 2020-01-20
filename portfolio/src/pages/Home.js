@@ -6,6 +6,9 @@ import ScrollIntoView from 'react-scroll-into-view'
 import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/Container';
 import Jumbotron from 'react-bootstrap/Jumbotron';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+
+
 
 function Home () {
     return (
@@ -20,16 +23,18 @@ function Home () {
 
 function Navbar () {
   return (
-    <Jumbotron id="jumbotron1">
-        <Container id="containerAboutDiv">
+    <Jumbotron id="jumbotronHome">
+        <Container id="containerHomeDiv">
             <h1>Annie Luc</h1>
-                <button>GitHub</button>
-                <button>Email</button>
-                <button>LinkedIn</button>
+                <button id="gitHubButton">GitHub</button>
+                {/* <FontAwesomeIcon icon={['fab', 'apple']} /> */}
+                <button id="emailButton">Email</button>
+                
+                <button id="LinkedInButton">LinkedIn</button>
 
     {/* About Me Button will scroll down to the About Me section from About.js */}
-      <div id='aboutDiv'>
-      <ScrollIntoView selector="#aboutDiv" >
+      <div id="aboutMe">
+      <ScrollIntoView selector="aboutDiv" >
            <Button variant="outline-success">About me</Button>
       </ScrollIntoView>
       </div>
