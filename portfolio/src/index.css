@@ -12,9 +12,11 @@ body {
 h1 {
   color:rgb(255, 197, 6);
   font-family: 'Gloria Hallelujah', cursive;
+  align-items: center;
+  padding-bottom: 10px;
 }
 
-#containerAboutDiv, #projectDiv, #contactDiv {
+#containerAboutDiv, #contactDiv {
   padding: 100px 250px 200px 500px;
   align-items: center;
 
@@ -81,12 +83,33 @@ text {
   background-image: url('/images/victoria-bilsborough-U-ouhtPgHH4-unsplash.jpg');
 }
 
-#Proj1 {
+.projectCard  {
   border: 10px;
   height: 100px;
   width: 100px;
   border-style: double;
+  padding: 130px;
+
 }
+#Proj1, #Proj4 {
+  margin-left: 160px;
+}
+
+#Proj2, #Proj5 {
+  margin-left: 435px;
+}
+
+#Proj3, #Proj6 {
+  margin-left: 600px;
+}
+
+#projectDiv {
+  display: grid;
+ grid-template-columns: 100px 200px 100px;
+ grid-template-rows: 300px 300px 300px;
+}
+
+
 
 /* About.js */
 #jumbotronAbout {

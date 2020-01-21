@@ -8,17 +8,18 @@ import '../App'
 function Projects (props) {
     return (
         <Jumbotron id="jumbotronProjects">
+             <h1>Projects</h1>
+             
         <div id="projectDiv">
-            <h1>Projects
             {/* <FontAwesomeIcon icon={faGlasses}/> */}
-            <div id="Proj1"></div>
-            <div id="Proj2"></div>
-            <div id="Proj3"></div>
-            <div id="Proj4"></div>
-            <div id="Proj5"></div>
-            <div id="Proj6"></div>
-            </h1>
+            <div id="Proj1" className="projectCard"></div>
+            <div id="Proj2" className="projectCard"></div>
+            <div id="Proj3" className="projectCard"></div>
+            <div id="Proj4" className="projectCard"></div>
+            <div id="Proj5" className="projectCard"></div>
+            <div id="Proj6" className="projectCard"></div>
         </div>
+    
         </Jumbotron>
     )
 }
